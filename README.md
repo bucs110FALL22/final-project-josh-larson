@@ -43,6 +43,30 @@ https://replit.com/join/pbdwjvgvsq-joshuajanason
         * ![class diagram](assets/class_diagram.jpg) 
 * Classes
     * << You should have a list of each of your classes with a description. >>
+Class Deck:
+-x(int): the horizontal position of the deck
+-y(int): the vertical position of the deck
+-amount(int): the amount of cards in the deck (can be updated)
+-card: the card that is selected at the time
+-list: a list of all of the possible cards in the deck (52 cards in total)
+-image: the image of the deck (just cards facing down)
+-FUNCTION: shuffle: the deck is able to shuffle through the cards randomly to create a new order
+-FUNCTION: deal: the deck is able to hand out a card to the player and the dealer (removes the card from the deck)
+
+Class Card: 
+-x(int): the horizontal position of the card (changes if it is dealt to either the player or the dealer)
+-y(int): the vertical position of the card (changes if it is dealt to either the player or the dealer)
+-value(int): the value of the card
+-FUNCTION: move: the card is able to move in any direction at a certain speed
+
+Class Player:
+-name("str"): the player's name
+-points("int"): the amount of points (in card value) that the player has
+-cards("str"): the specific cards that the player has in hand
+-result("str"): the result if the player wins or loses
+-x(int): the horizontal position of the player
+-y(int): the vertical position of the player
+
 
 ## Project Structure and File List
 

@@ -31,7 +31,7 @@ class Player
   1- name
   2- points
   3- cards (hand)
-  4- winnter/loser
+  4- winner/loser
   5- x
   6- y
 -methods:
